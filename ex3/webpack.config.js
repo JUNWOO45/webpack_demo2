@@ -5,7 +5,7 @@ module.exports = {
   mode: 'development',
   entry: {
     main: './app/index.js',
-    vendor: [
+    vendor11: [
       'moment',
       'lodash'
     ]
@@ -19,7 +19,7 @@ module.exports = {
       cacheGroups: {
         vendor: {
           chunks: 'initial',
-          name: 'vendor',
+          name: 'vendor11',
           enforce: true,
         },
       },
